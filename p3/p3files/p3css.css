@@ -1,0 +1,30 @@
+﻿body {
+    padding-top: 56px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+#wSubmit {
+    margin-left: 10px;
+}
+
+p {
+    flex: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+hr{
+    border-color: whitesmoke;
+    border-width: 3px;
+}
+
+.card{
+    margin-bottom: 30px;
+}

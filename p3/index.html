@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Planetary weight calculator">
+    <meta name="author" content="Anthony Robustelli">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="p3files/p3css.css" rel="stylesheet" />
+    <title>Anthony Robustelli - Project 3</title>
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+            <label class="navbar-brand">Anthony Robustelli - Project 3</label>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://lamp.cse.fau.edu/~arobustelli2018/">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#sources">Sources<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="top">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="mt-4">Find Out Your Weight On Other Planets</h1>
+                <hr>
+                <img class="img-fluid rounded" src="p3images/planets.jpg" alt="">
+                <hr>
+                <p>Enter your weight below, choose kilograms or pounds and hit "Calculate"</p>
+                <form class="form-inline d-flex justify-content-center" id="wForm" method="get">
+                    <label for="weightValue">Enter Weight: </label>
+                    <input type="text" id="weightValue">
+                    <input type="button" class="btn btn-inverse" id="wSubmit" value="Calculate">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/mercury.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Mercury is: </p>
+                        <p class="card-text font-weight-bold" id="mercuryResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/venus.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Venus is: </p>
+                        <p class="card-text font-weight-bold" id="venusResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/earth.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Earth is: </p>
+                        <p class="card-text font-weight-bold" id="earthResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/mars.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Mars is: </p>
+                        <p class="card-text font-weight-bold" id="marsResult"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/jupiter.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Jupiter is: </p>
+                        <p class="card-text font-weight-bold" id="jupiterResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/saturn.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Saturn is: </p>
+                        <p class="card-text font-weight-bold" id="saturnResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/uranus.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Uranus is: </p>
+                        <p class="card-text font-weight-bold" id="uranusResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-dark">
+                    <img src="p3images/neptune.png" class="card-img-top bg-secondary" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Your weight on Neptune is: </p>
+                        <p class="card-text font-weight-bold" id="neptuneResult"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container col-lg-4" id="sources">
+        <div class="card bg-dark">
+            <h5 class="card-header">Sources</h5>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <a href="https://www.livescience.com/33356-weight-on-planets-mars-moon.html">Weight Formula Information</a>
+                    </li>
+                    <li>
+                        <a href="https://www.wallpapermaiden.com">Banner Image</a>
+                    </li>
+                    <li>
+                        <a href="https://space-facts.com/transparent-planet-pictures/">Planet Images for Cards</a>
+                    </li>
+                    <li>
+                        <a href="https://startbootstrap.com/templates/blog-post/">Bootstrap Reference Code and Snippets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="p3files/temperature.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
