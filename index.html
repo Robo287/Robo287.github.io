@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio Portal</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="portalFiles/bootstrap/css/bootstrap.css">
+    <!--Other CSS-->
+    <link rel="stylesheet" href="portalFiles/portalCSS.css">
+</head>
+<body class="bg-image">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <label class="navbar-brand">Anthony Robustelli - Project Portal Page</label>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropDownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropDownLink">
+                        <a class="dropdown-item" href="p1/index.html">Project 1</a>
+                        <a class="dropdown-item" href="p2/index.html">Project 2</a>
+                        <a class="dropdown-item" href="p3/index.html">Project 3</a>
+                        <a class="dropdown-item" href="p4/index.html">Project 4</a>
+                        <a class="dropdown-item" href="p5/index.php">Project 5</a>
+                        <a class="dropdown-item" href="p6/index.php">Project 6</a>
+                        <a class="dropdown-item" href="p7/index.html">Project 7</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="mb-5 mt-5">
+        <div class="col-10 mx-auto">
+            <div id="myCarousel" class="carousel slide border-bottom" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid w-100 h-auto" src="portalImages\carouselImg1.png" alt="First Slide">
+                        <div class="container">
+                            <div class="carousel-caption text-right text-dark">
+                                <h1>Basic HTML</h1>
+                                <p>Check out this basic example of HTML structure.</p>
+                                <br>
+                                <p><a class="btn btn-lg btn-primary" href="p1/index.html" role="button">Take Me There!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid w-100 h-auto" src="portalImages\carouselImg2.png" alt="Second Slide">
+                        <div class="container">
+                            <div class="carousel-caption text-right text-dark">
+                                <h1>Beautiful Bootstrap</h1>
+                                <p>Take a look at how implementing Bootstrap 4</p>
+                                <p>can make a responsive webpage.</p>
+                                <p><a class="btn btn-lg btn-primary" href="p2/index.html" role="button">Take Me There!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid w-100 h-auto" src="portalImages\carouselImg3.png" alt="Third Slide">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>PHP Postback.</h1>
+                                <p>Try out a weather app that utilizes PHP postback scripting to an API.</p>
+                                <br>
+                                <p><a class="btn btn-lg btn-primary" href="p6/index.php" role="button">Take Me There!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="mx-auto col-6" id="accordion">
+            <h1 class="mb-3">PROJECTS AND ASSIGNMENTS</h1>
+            <hr>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Homework Assignments
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="https://kicktheminthemeatballs.blogspot.com">Homework 1</a></h5>
+                        <ul>
+                            <li>A brief study on the structure of different websites and what could constitute as good structure or bad structure.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            HTML and Bootstrap
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="p1/index.html">Project 1</a></h5>
+                        <ul>
+                            <li>A display of basic HTML and CSS skills including classes, links, tables, lists as well as embedding images and videos.</li>
+                        </ul>
+                        <h5><a href="p2/index.html">Project 2</a></h5>
+                        <ul>
+                            <li>A more advanced display of HTML structuring using Bootstrap 4 and its features to improve looks, functionality and scalability for mobile devices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Javascript
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="p3/index.html">Project 3</a></h5>
+                        <ul>
+                            <li>A demonstration of using a custom Javascript script to process a user input and display the results of the process.</li>
+                        </ul>
+                        <h5><a href="p4/index.html">Project 4</a></h5>
+                        <ul>
+                            <li>N/A - Project Unavailable.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            PHP Serverside Scripting and SQL
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5><a href="p5/index.php">Project 5</a></h5>
+                        <ul>
+                            <li>An example of using PHP and server side scripting in conjunction with HTML postback to take in a user input and display an output based on the input processed by the scripting.</li>
+                        </ul>
+                        <h5><a href="p6/index.php">Project 6</a></h5>
+                        <ul>
+                            <li>Expanding on the previous project, the page uses a postback and PHP scripting to make a call to a weather API and the results are displayed on the page, also the use of cookies are demonstrated through an option to save a favorite zip code.</li>
+                        </ul>
+                        <h5><a href="p7/index.html">Project 7</a></h5>
+                        <ul>
+                            <li>A more complex project demonstrating traversal and several pages, all the same API and PHP scripting of the last project as well as demonstration of sending SQL queries to pass account creation and login requests to a managed phpMyAdmin MySQL database.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    <!--Footer-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            Project Portal Page | Anthony Robustelli | Fall 2019 | Background Image by: <a href="https://unsplash.com/@aznbokchoy">Lucas Benjamin</a>
+        </div>
+    </footer>
+    <!--Bootstrap Core JavaScript-->
+    <script src="portalFiles/bootstrap/jquery/jquery.min.js"></script>
+    <script src="portalFiles/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Plugin JavaScript-->
+    <script src="portalFiles/bootstrap/jquery/jquery.easing.min.js"></script>
+    <!-- Optional JavaScript -->
+</body>
+</html>
