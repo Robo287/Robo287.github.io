@@ -1,0 +1,52 @@
+﻿table, th, td 
+{
+    border: solid black;
+}
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    width: 100px;
+}
+th 
+{
+    width: 150px;
+    text-align: left;
+    background-color: #ddd;
+}
+.None
+{
+    background-color: dimgrey;
+    color: white;
+}
+.Thunder
+{
+    background-color: yellow;
+}
+.Fire
+{
+    background-color: darkorange;
+    color: white;
+}
+.Dragon
+{
+    background-color: purple;
+    color: white;
+}
+#NergiBoi
+{
+    background-color: darkviolet;
+    color: white;
+}
+#Pony
+{
+    background-color: goldenrod;
+    color: white;
+}
+#Pickle
+{
+    background-color: darkgreen;
+    color: white;
+}

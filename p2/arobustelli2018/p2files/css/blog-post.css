@@ -1,0 +1,31 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+hr.weapontitle {
+    border-width: 6px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+iframe {
+    float: left;
+    width: 480px;
+    height: 270px;
+    margin: 10px 10px 10px 0px;
+}
+
+.clear {
+    clear: both; 
+}
+
+.bottombutton {
+    margin-bottom: 15px;
+}
