@@ -1,0 +1,41 @@
+﻿.guestApp {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background-color: dimgray;
+}
+
+.weatherApp {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background-color: blue;
+}
+
+.signUp {
+    position: relative;
+    top: 6rem;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+}
+
+.errorText {
+    color: #a94442;
+}
+
+.successText {
+    color: #3c763d;
+}
+
+.logIn {
+    position: relative;
+    top: 6rem;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+}
